@@ -1,5 +1,5 @@
-# Tool-Spell-on-CASIO-fx-580VN-X
-Tool-Spell trên CASIO fx-580VN X
-- `Coder Feature & FixCode: Phong2k11®`
-- `Coder Tool Spell & Updater: AxesMC`
-- Tool được tạo ra dưới mục đính phục vụ việc spell trên CASIO fx-580VN X
+# ExportHex on Casio fx-580VNX (Emulator)
+Tool giúp export một số hex để spell trên máy tính (Casio fx-580VNX)
+- `Code Original: Phong2k11®`
+- Tool export hex có khả năng sai,dùng cẩn thận
+# Cảm ơn vì đã dùng 
