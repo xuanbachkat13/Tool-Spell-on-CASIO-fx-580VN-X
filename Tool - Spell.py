@@ -12,13 +12,11 @@ def typewriter(text, delay=0.01):
     print()
 
 def show_menu():
-    typewriter("\n===== Hack Casio =====", 0.02)
+    typewriter("\n===== Export Hex Casio =====", 0.02)
     time.sleep(0.5)
     typewriter("Tool Spell trên CASIO fx-580VN X", 0.02)
-    typewriter("- Bản quyền © Hack Casio -", 0.02)
     typewriter("1. Lưu ý", 0.02)
-    typewriter("2. Liên hệ", 0.02)
-    typewriter("3. Spell Var", 0.02)
+    typewriter("2. Export Hex", 0.02)
 
 def show_notes():
     typewriter("\n===== Lưu ý sử dụng! =====", 0.02)
@@ -35,21 +33,6 @@ def show_notes():
     ]
     for note in notes:
         typewriter(f"  • {note}", 0.01)
-
-def show_contacts():
-    typewriter("\n===== Liên hệ! =====", 0.02)
-    contacts = [
-        "Coder Feature & FixCode: Phong2k11®",
-        "Discord: Phong2k11®",
-        "TikTok: Phong2k11®",
-        "YouTube: Phong2k11",
-        "Coder Tool Spell & Update: AxesMC",
-        "Discord: C++ My Life(@kiet130218_80627) or Kiet1302181(@kiet1302181)",
-        "Tiktok: AxesMC or @typedcello07585",
-        "Youtube: AxesMC"
-    ]
-    for info in contacts:
-        typewriter(f"  • {info}", 0.02)
 
 # Cái def fill_template() này dùng để lấp hex vào biến A B C
 def fill(hex_list):
@@ -352,3 +335,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
